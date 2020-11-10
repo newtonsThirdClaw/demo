@@ -1,0 +1,15 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#01579b",
+      "color": "#fafafa",
+      "fontFamily": "Noto Sans",
+      "fontSize": "20pt",
+      "fontWeight": "bold",
+      "paddingBottom": "12px",
+      "paddingLeft": "12px",
+      "paddingTop": "12px",
+      "textAlign": "left"
+    }
+  }
+}
