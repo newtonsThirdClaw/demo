@@ -9,9 +9,12 @@
           "name": "Label"
         },
         "position": {
-          "basis": "32px"
+          "basis": "50px"
         },
         "props": {
+          "style": {
+            "classes": "ViewHeader"
+          },
           "text": "DEMO PROJECT"
         },
         "type": "ia.display.label"
@@ -81,6 +84,9 @@
                 }
               ]
             }
+          },
+          "style": {
+            "classes": "Map"
           }
         },
         "type": "ia.display.map"
@@ -99,10 +105,6 @@
                 "align": "center",
                 "editable": true,
                 "justify": "left",
-                "style": {
-                  "backgroundColor": "#F7901D",
-                  "classes": "some-class"
-                },
                 "value": "Folsom"
               },
               "country": "United States",
@@ -353,7 +355,18 @@
               "country": "Tunisia",
               "population": 1056247
             }
-          ]
+          ],
+          "rows": {
+            "highlight": {
+              "color": "#4F83CC"
+            }
+          },
+          "selection": {
+            "enableRowSelection": false
+          },
+          "style": {
+            "classes": "Table"
+          }
         },
         "type": "ia.display.table"
       }
