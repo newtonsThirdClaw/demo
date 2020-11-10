@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "valueSource": "memory",
+      "name": "Tag3",
+      "value": 30,
+      "tagType": "AtomicTag"
+    },
+    {
+      "valueSource": "memory",
+      "name": "Tag1",
+      "value": 10,
+      "tagType": "AtomicTag"
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    },
+    {
+      "valueSource": "memory",
+      "name": "Tag2",
+      "value": 20,
+      "tagType": "AtomicTag"
+    }
+  ]
+}
